@@ -28,7 +28,7 @@ app.add_middleware(
         "http://127.0.0.1:5173", 
         "http://127.0.0.1:3000",
         "https://*.vercel.app",  # Allow Vercel frontend
-        "https://autotestcaseai-production.up.railway.app"  # actual URL
+        "https://auto-test-case-ai.vercel.app"  # actual URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
